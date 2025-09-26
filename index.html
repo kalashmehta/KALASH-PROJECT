@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K Clothing Brand - Home</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #fff; color: #111; }
+    header { background-color: #000; color: #d4af37; padding: 20px; text-align: center; font-size: 2.5em; font-weight: bold; }
+    nav { background-color: #111; display: flex; justify-content: center; gap: 30px; padding: 15px 0; }
+    nav a { color: white; text-decoration: none; font-size: 1.1em; }
+    nav a:hover { color: #d4af37; }
+    .main-section { display: flex; flex-direction: column; align-items: center; margin-top: 40px; }
+    .customizer { display: flex; gap: 30px; margin-top: 25px; }
+    .selector { background: #faf9f6; border-radius: 8px; padding: 18px 12px; box-shadow: 1px 1px 8px #eee; font-size: 1em; }
+    .customizer label { display: block; margin-bottom: 10px; color: #111; font-weight: bold; }
+    .customizer select { width: 130px; padding: 4px; margin-bottom: 12px; }
+    .add-to-cart { background: #d4af37; color: #fff; border: none; border-radius: 6px; font-size: 1.1em; padding: 15px 35px; margin-top: 28px; cursor: pointer; }
+    .add-to-cart:hover { background: #000; color: #d4af37; }
+    .info-row { display: flex; justify-content: center; gap: 50px; margin-top: 20px; color: #a7892a; font-size: 0.95em; }
+    img.tshirt { max-width: 320px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <span style="font-family:cursive; color:#d4af37;">K</span>
+  </header>
+  <nav>
+    <a href="#">HOME</a>
+    <a href="#">SHOP</a>
+    <a href="#">CUSTOMIZE</a>
+    <a href="#">ABOUT</a>
+    <a href="#">CONTACT</a>
+  </nav>
+  <div class="main-section">
+    <img src="tshirt.png" alt="White T-Shirt" class="tshirt">
+    <div class="customizer">
+      <div class="selector">
+        <label>FABRIC TYPE</label>
+        <select>
+          <option>Pima</option>
+          <option>Supima</option>
+          <option>Cotton</option>
+        </select>
+      </div>
+      <div class="selector">
+        <label>COLOR SELECTION</label>
+        <select>
+          <option>White</option>
+          <option>Navy</option>
+          <option>Green</option>
+          <option>Black</option>
+        </select>
+      </div>
+    </div>
+    <div class="info-row">
+      <span>AR TRY-ON (Coming Soon)</span>
+      <span>NFT AUTHENTICITY</span>
+    </div>
+    <button class="add-to-cart">ADD TO CART</button>
+  </div>
+</body>
+</html>
